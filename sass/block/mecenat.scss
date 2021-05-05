@@ -1,0 +1,75 @@
+.mecenat {
+    margin-top: 120px;
+    &__wrapper {
+        display: flex;
+        margin-top: 100px;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        .mecenat__link {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #fff;
+            margin-bottom: 25px;
+            transition: all .5s;
+            &:hover {
+                color: #D1A954;
+                text-decoration: none;
+            }
+        }
+        address {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #fff;
+        }
+    }
+    &__item--second {
+        display: flex;
+    }
+    &__form {
+        width: 500px;
+        position: relative;
+        margin-left: 90px;
+        input {
+            width: 180px;
+            height: 35px;
+            background: #444444;
+            border: 1px solid #616161;
+            margin: 0 20px;
+            margin-bottom: 32px;
+            padding-left: 20px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 150%;
+            color: #989898;
+        }
+        textarea {
+            position: absolute;
+            top: 0; 
+            width: 310px;
+            height: 100px;
+            background: #444444;
+            border: 1px solid #616161;
+            resize: none;   
+        }
+    }
+    .form__descr {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 150%;
+        color: #989898;
+        margin-left: 20px;
+        width: 390px;
+    }
+}

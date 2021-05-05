@@ -1,0 +1,23 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+html {
+    scroll-behavior: smooth
+}
+body.lock {
+    overflow: hidden
+}
+@import 'block/header';
+@import 'block/main';
+@import 'block/button';
+@import 'block/about';
+@import 'block/title';
+@import 'block/staging';
+@import 'block/partners';
+@import 'block/mecenat';
+@import 'block/footer';
+@import 'block/media';

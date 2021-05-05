@@ -1,0 +1,628 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 900px;
+    }
+    .header__social {
+        display: block;
+        width: 50px;
+        &_text {
+            font-size: 13px;
+        }
+    }
+    .header__main {
+        .main__title {
+            font-size: 50px;
+        }
+    }
+    .poster {
+        width: 300px;
+        height: 400px;
+    }
+    .poster--second {
+        width: 300px;
+        height: 400px;
+    }
+    .header {
+        min-height: 900px;
+        .navigation__list_li {
+            a {
+                font-size: 12px;
+            }
+        }
+    }
+    .staging__carousel_img{
+        img {
+            width: 100%;
+        }
+    }
+    .staging__main_img {
+        width: 100%;
+    }
+    .mecenat__form{
+        textarea {
+            width: 120px;
+        }
+    }
+    .footer {
+        padding-top: 89px;
+    }
+    .footer__divider {
+        width: 900px;
+    }
+    .mecenat__wrapper {
+        flex-direction: column;
+    }
+    .mecenat__link {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .mecenat__item {
+        address {
+            text-align: center;
+        }
+    }
+    .mecenat__item--second {
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .mecenat__form {
+        margin-left: 0;
+    }
+    .button--form {
+        right: -13%;
+        width: 140px;
+        font-size: 16px;
+    }
+    .staging__carousel_img{
+        .carousel-date {
+            font-size: 13px;
+        }
+    }
+}
+@media (max-width: 992px) {
+    .header__social {
+        display: none;
+    }
+    .header__burger {
+        position: relative;
+        display: block;
+        width: 30px;
+        height: 20px;
+        z-index: 1000;
+        right: 0%;
+        margin-left: auto;
+        span {
+            position: absolute;
+            width: 100%;
+            height: 3px;
+            right: 3px;
+            top: 9px;
+            background: #fff;
+        }
+        &:after {
+            content: '';
+            background: #fff;
+            width: 100%;
+            height: 3px;
+            position: absolute;
+            right: 10%;
+            bottom: 0;
+        }
+        &:before {
+            content: '';
+            background: #fff;
+            width: 100%;
+            height: 3px;
+            position: absolute;
+            right: 10%;
+            top: 0;
+        }
+        &_active {
+            span {
+                display: none;
+            }
+            &:before {
+                bottom: 9%;
+                transform:rotate(47deg);
+                background: #000;
+            }
+            &:after {
+                transform:rotate(-45deg);
+                top: 9%;
+                background: #000;
+            }
+        }
+    }
+    body.lock {
+        overflow: hidden
+    }
+    .navigation {
+        display: none;
+    }
+    .header__phone {
+        display: none;
+    }
+    .header__burger_list {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background: #fff;
+        left: 0;
+        z-index: 700;
+        top: -100%;
+        transition: all .5s;
+        &_active {
+            top: 0;
+        }
+        ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 100px;
+            margin-right: 30px;
+            li {
+                margin-bottom: 30px;
+            }
+        }
+        a {
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 25px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #000;
+            transition: all .5s;
+        }
+    
+    }
+    .header {
+        min-height: 630px;
+    }
+    .header__main {
+        margin-top: 50px;
+        .main__poster {
+            top: 33%;
+            left: 58%;
+            .poster {
+                width: 270px;
+                height: 350px;
+            }
+        }
+    }
+    .poster--second {
+        width: 270px;
+        height: 350px;
+    }
+    .header__main {
+        padding-left: 20px;
+        margin-top: -47px;
+        .main__title {
+            font-size: 45px;
+        }
+        .main__descr {
+            width: 450px;
+        }
+    }
+    .about__wrapper {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .staging__carousel {
+        margin-left: 0;
+    }
+    .partners{
+        .gazprom {
+            width: 150px;
+        }
+    }
+    .footer {
+        .container {
+            width: 900px;
+        }
+        .footer__divider {
+            width: 870pxs;
+        }
+    }
+    .header{
+        .header__inner_fixed {
+            width: 100%;
+        }
+
+    }
+
+
+}
+@media (max-width: 850px) {
+    .container {
+        width: 700px;
+    }
+    .header__main{
+        .main__descr {
+            width: 400px;
+        }
+        .main__poster {
+            left: 60%;
+            .poster {
+                width: 250px;
+            }
+        }
+    }
+    .staging__image_descr--third {
+        font-size: 27px;
+        width: 400px;
+    }
+    .partners{
+        .gazprom {
+            width: 110px;
+        }
+    }
+    .footer {
+        .footer__divider {
+            width: 570px;
+        }
+        .container {
+            width: 570px;
+    
+    }
+    .mecenat__form{
+        input {
+            width: 150px;
+        }
+    }
+    .mecenat {
+        .form__descr {
+            width: 320px;
+        }
+    }
+    .button--form {
+        right: 0;
+    }
+}
+@media (max-width: 770px) {
+    .container {
+        width: 570px;
+    }
+    .header__main{
+        .main__descr {
+            width: 350px;
+        }
+    }
+    .about__wrapper {
+        flex-direction: column;
+    }
+    .about__title {
+        text-align: center;
+    }
+    .about__descr {
+        width: 296px;
+    }
+    .staging__date {
+        width: 100%;
+    }
+    .staging__image_descr--third {
+        font-size: 23px;
+    }
+    .about__wrapper {
+        align-items: center;
+    }
+    .mecenat__item--second {
+        justify-content: normal;
+        padding-left: 20px;
+    }
+    .footer {
+        .footer__divider {
+            width: 600px;
+        }
+        .container {
+            max-width: 600px;
+        }
+    }
+    .header__main{
+        .main__poster {
+            .poster {
+                width: 220px;
+            }
+        }
+    }
+    .poster--second {
+        width: 220px;
+        height: 350px;
+    }
+    .staging__date {
+        width: 100px;
+    }
+}
+}
+@media (max-width: 575px){
+    .container {
+        max-width: 500px;
+    }
+    .header__main{
+        padding: 0;
+        .main__descr {
+            width: 250px;
+        }
+        .main__title {
+            font-size: 35px;
+        }
+    }
+    .header__main{
+        .main__poster {
+            left: 54%;
+        }
+    }
+    .staging__carousel_img{
+        span {
+            font-size: 13px;
+        }
+    }
+    .staging__carousel_img{
+        .carousel-date {
+            font-size: 8px;
+        }
+    }
+    .staging__image_descr--third{
+        width: 300px;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .mecenat__form{
+        input {
+            width: 150px;
+        }
+    }
+    .mecenat{
+        .form__descr {
+            width: 250px;
+        }
+    }
+    .button--form {
+        right: 0;
+    }
+    .mecenat__item--second {
+        padding-left: 0;
+    }
+    .footer {
+        .container {
+            max-width: 500px;
+        }
+        .footer__divider {
+            width: 500px;
+        }
+    }
+    .header__main{
+        .main__poster_arrow_next {
+            right: 5%;
+            .next-arrow {
+                width: 30px;
+            }
+            span {
+                font-size: 15px;
+            }
+        }
+        .main__poster_arrow_prev {
+            .prev-arrow {
+                width: 30px;
+            }
+            span {
+                font-size: 15px;
+            }
+        }
+    }
+    .header__burger {
+        right: 5.1%;
+    }
+}
+
+@media (max-width: 470px) {
+    .container {
+        max-width: 400px;
+    }
+    .header__main{
+        .main__poster {
+            .poster {
+                width: 180px;
+            }
+        }
+    }
+    .poster--second {
+        width: 180px;
+        height: 350px;
+    }
+    .header__main{
+        .main__poster_arrow_next {
+            right: -6%;
+        }
+    }
+    .header__main{
+        .main__title {
+            font-size: 29px;
+        }
+        .main__poster {
+            top: 50%;
+            .poster {
+                width: 150px;
+                height: 250px;
+            }
+            .poster--second {
+                width: 150px;
+                height: 250px;
+            }
+        }
+    }
+    .staging__date {
+        width: 75px;
+    }
+    .staging__carousel_img{
+        .carousel-date {
+            top: 69%;
+        }
+    }
+    .staging__image_descr--third{
+        width: 250px;
+        font-size: 15px;
+    }
+    .mecenat__form{
+        input {
+            width: 100px;
+        }
+    }
+    .mecenat{
+        .form__descr {
+            width: 200px;
+        }
+    }
+    .footer {
+        .container {
+            max-width: 400px;
+        }
+        .footer__divider {
+            width: 400px;
+        }
+    }
+    .footer__text {
+        font-size: 10px;
+    }
+    .about {
+        padding-top: 24px;
+    }
+    .staging {
+        margin-top: 31px;
+    }
+    .staging__main_img {
+        margin-top: 80px;
+    }
+    .partners {
+        margin-top: 41px;
+    }
+    .mecenat {
+        margin-top: 50px;
+    }
+    .staging__carousel {
+        flex-wrap: wrap;
+    }
+    .staging__carousel_img{
+        span {
+            font-size: 20px;
+        }
+        .carousel-date {
+            font-size: 18px;
+        }
+    }
+    .mecenat__form{
+        textarea {
+            width: 100px;
+        }
+    }
+    .header__main{
+        .main__poster_arrow_prev{
+            span {
+                font-size: 10px;
+            }
+        }
+        .main__poster_arrow_next {
+            span {
+                font-size: 10px;
+            }
+        }
+    }
+}
+@media (max-width:400px){
+    .container {
+        max-width: 300px;
+    }
+    .staging__date {
+        width: 59px;
+    }
+    .staging__image_descr--third {
+        font-size: 14px;
+    }
+    .partners__image {
+        justify-content: center;
+    }
+    .mecenat__item--second {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .mecenat__form{
+        input {
+            width: 50%;
+        }
+        .form__descr {
+            display: none;
+        }
+    }
+    .mecenat__form{
+        textarea {
+            width: 250px;
+            top: 92%;
+            left: 4%;
+            position: static;
+            margin-left: 20px;
+        }
+    }
+    .button--form {
+        right: 55%;
+        top: 65%;
+        position: absolute;
+    }
+    .footer {
+        padding-top: 0;
+        .container {
+            max-width: 300px;
+        }
+        .footer__divider {
+            width: 300px;
+        }
+    }
+    .header__main{
+        overflow: hidden;
+        .main__title {
+            font-size: 23px;
+        }
+    }
+    .staging {
+        overflow: hidden;
+    }
+    .stars {
+        width: 150px;
+    }
+    .title {
+        font-size: 43px;
+    }
+    .staging__image_descr--third {
+        width: 180px;
+        font-size: 10px;
+    }
+    .mecenat {
+        overflow: hidden;
+    }
+    .mecenat__form {
+        height: 500px;
+    }
+    .header__main{
+        .main__poster_arrow_next{
+            span {
+                font-size: 10px;
+            }
+        }
+        .main__poster_arrow_prev{
+            span {
+                font-size: 10px;
+            }
+        }
+    }
+    .header__burger {
+        right: 1%;
+    }
+    .header {
+        .header__inner_fixed {
+            height: 50px;
+            padding-top: 15px;
+        }
+    }
+}
+

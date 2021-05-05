@@ -1,0 +1,13 @@
+.partners {
+    margin-top: 120px;
+    &__image {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    .gazprom {
+        margin: 0 30px;
+        margin-top: 70px;
+    }
+}

@@ -1,0 +1,89 @@
+.staging {
+    margin-top: 150px;
+    &__carousel {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-top: 100px;
+        margin-left: 132px;
+        &_img {
+            position: relative;
+            img {
+                position: relative;
+            }
+            .carousel-date {
+                position: absolute;
+                top:75%;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 25px;              
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+                color: #fff;
+                z-index: 100;
+                left: -8%;
+                transform: rotate(270deg);
+                &--second {
+                    left: -6%;
+                }
+                &--third {
+                    left: -3%;
+                }
+            }
+            span {
+                position: absolute;
+                top:5%;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 22px;
+                line-height: 33px;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                color: #fff;
+                z-index: 100;
+                left: 10%;
+            }
+        }
+    }
+    &__main_img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 150px;
+    }
+    &__image {
+        position: relative;
+        &_descr {
+            position: absolute;
+            top: 28%;
+            left: 19%;
+            &--second {
+                top: 30%;
+                left: 43%;
+            }
+            &--third {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 36px;
+                line-height: 150%;
+                color: #fff;
+                width: 540px;
+                left: 43%;
+                top: 40%;
+            }
+        }
+    }
+    .staging__carousel_img{
+        &:Hover .staging_hover{
+            opacity: 1;
+        }
+    }
+    }
+    .staging_hover {
+        transition: all .5s;
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        opacity: 0;
+        cursor: pointer;
+    }
